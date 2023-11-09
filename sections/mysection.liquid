@@ -1,0 +1,17 @@
+{{ 'mycss.css' | asset_url | stylesheet_tag }}
+{{ 'myjs.js' | asset_url | script_tag }}
+
+<div class="my_div"><h1>i am section</h1></div>
+
+{% schema %}
+{
+  "name": "Section name",
+  "settings": []
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
